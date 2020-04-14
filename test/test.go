@@ -40,6 +40,6 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	//Co tinh tao conflic nhe
+	//Co tinh tao conflic ok nhe ok
 	fmt.Println(resp.StatusCode)
 }
