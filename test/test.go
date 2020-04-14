@@ -30,6 +30,7 @@ func main() {
 	// set the HTTP method, url, and request body
 	req, err := http.NewRequest(http.MethodPut, "http://api.example.com/v1/user", bytes.NewBuffer(json))
 	if err != nil {
+		//Xem co conflic khong nhe
 		panic(err)
 	}
 
