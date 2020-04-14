@@ -1,0 +1,36 @@
+[
+    {
+        "smfInstanceId"   : "1" ,         
+        "supportedFeatures"   : "window",      
+        "pduSessionId" : "2",
+        "singleNssai" : {
+            "stt" : 8,
+            "sd" :"snssai1"
+        },
+        "dnn"         : "dnn1",
+        "emergencyServices"          : true ,        
+        "pcscRestorationCallbackUri"  : "pcsc1",
+        "plmnId" : {
+            "mcc":"mcc1",
+            "mnc":"mnc1"
+        },
+        "pgwFqdn"    :   "pgwFqdn1"
+    },
+    {
+        "smfInstanceId"   : "2" ,         
+        "supportedFeatures"   : "window",      
+        "pduSessionId" : "3",
+        "singleNssai" : {
+            "stt" : 8,
+            "sd" :"snssai1"
+        },
+        "dnn"         : "dnn1",
+        "emergencyServices"          : true ,        
+        "pcscRestorationCallbackUri"  : "pcsc1",
+        "plmnId" : {
+            "mcc":"mcc1",
+            "mnc":"mnc1"
+        },
+        "pgwFqdn"    :   "pgwFqdn1"
+    }
+]
